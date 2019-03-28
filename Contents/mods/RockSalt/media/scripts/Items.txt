@@ -1,0 +1,43 @@
+module NP_RockSalt
+{
+	imports
+    {
+        Base
+    }
+	
+	item NPRS_Bookgeology
+	{
+		Weight			= 0.5,
+		Type			= Literature,
+		DisplayName		= Geology Textbook,
+		Icon			= NPRS_Bookgeology,
+		TeachedRecipes  = Sift Dirt,
+        ReplaceOnUse    = NPRS_Bookgeology,
+	}
+	
+	item NPRS_Bookchemistry
+	{
+		Weight			= 0.5,
+		Type			= Literature,
+		DisplayName		= Chemistry Textbook,
+		Icon			= NPRS_Bookchemistry,
+		TeachedRecipes	= Make Salt,
+        ReplaceOnUse	= NPRS_Bookchemistry,
+	}
+	
+	item NPRS_Colander
+    {
+        Weight		= 0.5,
+        Type		= Normal,
+        DisplayName	= Colander,
+        icon		= NPRS_Colander,
+    }
+	
+	item NPRS_Rocksalt
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     = Rock Salt,
+        icon 			= NPRS_Rocksalt,
+    }
+}

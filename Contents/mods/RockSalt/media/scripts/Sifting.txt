@@ -1,0 +1,20 @@
+module NP_RockSalt
+{
+	imports
+    {
+        Base
+    }
+	
+	recipe Sift Dirt
+    {
+    	Dirtbag,
+    	keep NPRS_Colander,
+    	Result:NPRS_Colander,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Survivalist,
+    	OnCreate:NPRS_SiftDirt,
+    	RemoveResultItem:true,
+    	OnGiveXP:Give3ForagingXP,
+    }
+}

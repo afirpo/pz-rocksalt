@@ -1,0 +1,19 @@
+module NP_RockSalt
+{
+    imports
+    {
+        Base
+    }
+
+	recipe Make Salt
+    {
+		keep MortarPestle,
+		NPRS_Rocksalt,
+		CanBeDoneFromFloor:true,
+		Result:Salt,
+		NeedToBeLearn:true,
+		Time:100,
+		Category:Cooking,
+		OnGiveXP:Give3CookingXP,
+    }	   	
+}
